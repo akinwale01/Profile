@@ -1,0 +1,132 @@
+body{
+margin: 0;
+padding: 0;
+background-color: hsl(0, 0%, 8%);
+overflow: hidden;
+font-family: inter;
+}
+
+
+.profile{
+background-color: hsl(0, 0%, 12%) ;
+width: 30%;
+margin: 120px auto;
+height: 600px;
+border-radius: 20px;
+position: fixed;
+top: -80px;
+left: 40%;
+}
+
+h1{color:whitesmoke ;
+text-align: center;
+font-weight: 400;
+font-size: 25px;
+}
+
+h2{
+ color:  hsla(75, 94%, 57%, 0.897);
+ text-align: center;
+ font-weight: 700;
+ font-size: 14px;
+ margin-top: -19px;
+}
+
+h3{
+    color: rgba(245, 245, 245, 0.747);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button{
+    background-color:hsl(0, 0%, 20%);
+    color: rgba(245, 245, 245, 0.863);
+    text-align: center;
+    margin:7px;
+    width: 80%;
+    border: none;
+    margin-left: 34px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+button:hover{
+background-color: hsla(75, 94%, 57%, 0.795);
+color: hsla(0, 0%, 12%, 0.795) ;
+cursor: pointer;
+font-weight: 800;
+}
+
+img{
+border-radius: 50%;
+width: 35%;
+margin-top: 20px;
+margin-left: 98px;
+margin-bottom: -20px;
+}
+
+@media screen and (max-width: 800px) {
+    .profile{
+        background-color: hsl(0, 0%, 12%) ;
+        width: 70%;
+        margin: 120px auto;
+        height: 560px;
+        border-radius: 20px;
+        position: fixed;
+        top: -80px;
+        left: 16%;
+        }
+
+        img{
+            border-radius: 50%;
+            width: 50%;
+            margin-top: 7px;
+            margin-left: 57px;
+            margin-bottom: -7px;
+            }
+
+            button{
+                background-color:hsl(0, 0%, 20%);
+                color: rgba(245, 245, 245, 0.863);
+                text-align: center;
+                margin:7px;
+                width: 80%;
+                border: none;
+                margin-left: 34px;
+                height: 35px;
+                border-radius: 10px;
+                cursor: pointer;
+                font-weight: 800;
+            }
+
+            button:hover{
+                background-color: hsla(75, 94%, 57%, 0.795);
+                color: hsla(0, 0%, 12%, 0.795) ;
+                cursor: pointer;
+                font-weight: 800;
+                }
+
+                h1{color:whitesmoke ;
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 25px;
+                    }
+
+                    h2{
+                     color:  hsla(75, 94%, 57%, 0.897);
+                     text-align: center;
+                     font-weight: 700;
+                     font-size: 14px;
+                     margin-top: -19px;
+                    }
+
+                    h3{
+                        color: rgba(245, 245, 245, 0.747);
+                        text-align: center;
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+}
